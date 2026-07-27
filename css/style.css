@@ -397,6 +397,10 @@ ul {
   margin-bottom: 2rem;
 }
 
+.project-card-hero {
+  grid-column: 1 / -1;
+}
+
 .project-card-featured {
   border-color: rgba(59, 130, 246, 0.22);
   background:
@@ -460,6 +464,12 @@ ul {
   margin: 0;
   font-size: 1.2rem;
   color: #cbd5e1;
+}
+
+.cert-block {
+  margin-top: 2.5rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid var(--card-border);
 }
 
 .cert-grid {
